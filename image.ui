@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Image</class>
+ <widget class="QWidget" name="Image">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>175</width>
+    <height>73</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>175</width>
+    <height>73</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>175</width>
+    <height>73</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Calibri</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="setBt">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>48</y>
+     <width>45</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Calibri&quot;;
+color: rgb(255, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>Set</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetBt">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>48</y>
+     <width>45</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Calibri&quot;;
+color: rgb(170, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>3</y>
+     <width>221</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;Calibri&quot;;
+color: rgb(255, 32, 91);</string>
+   </property>
+   <property name="text">
+    <string>Set Image Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="imagenameEdit">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>23</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Image Normal Name</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
